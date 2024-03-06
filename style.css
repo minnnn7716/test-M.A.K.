@@ -10,10 +10,15 @@ body {
   font-family: "Figtree", "Noto Sans TC", sans-serif;
 }
 
+.overflow-wrap {
+  overflow: hidden;
+  padding-top: 10%;
+  margin-top: -10%;
+}
+
 .info {
   position: relative;
   padding: 120px 0 70px 0;
-  overflow: hidden;
 
   @media (max-width: 820px) {
     padding-top: 80px;
@@ -86,6 +91,7 @@ header {
 .deco-img {
   position: absolute;
   width: 30%;
+  z-index: 10;
 
   @media (max-width: 820px) {
     display: none;
